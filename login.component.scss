@@ -1,0 +1,98 @@
+.signInContainer{
+    width: 300px;
+    height: 350px;
+    margin-top: 35px;
+    position: relative;
+}
+
+.fingerPrint{
+  width: 40%;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+}
+.margin-left-20{
+    margin: auto;
+    border: 1px solid rgba(24, 23, 23, 0.377);
+    border-radius: 42px;
+    width:90%
+}
+.round{
+    background-color: white;
+    margin-top: 139px;
+    width: 47%;
+    height: 51%;
+    border-radius: 100%;
+    margin: auto;
+}
+.imageCenter{
+    display: block;
+    margin: auto;
+    width: 20%;
+    position: absolute;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 107px;
+    opacity: 1;
+
+}
+.center {
+    display: block;
+    margin: auto;
+    width: 51%;
+    margin-top: 90px;
+   }
+.d-flex{
+    display: flex;
+}
+.iconImg{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-left: 10px;
+}
+ion-input{
+    --padding-start:30px ;
+    --placeholder-opacity: 0.5;
+}
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    padding-left:30px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    padding-left:30px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    padding-left:30px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    padding-left:30px;
+  }
+.box {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+
+  background: white;
+  border-radius: 30px;
+}
+.headline{
+    z-index: 100;
+    position: relative;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.small{
+    font-size: 10px;
+}
+.loginLabel{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}

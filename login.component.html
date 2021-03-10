@@ -1,0 +1,78 @@
+<ion-content>
+  <ion-grid> 
+    <img style="position: absolute;" src="../../assets/icon/Background.png"/>
+    <p class="headline">VOYA<small class="small">FINALCIAL</small></p>
+  </ion-grid>
+  
+  <ion-grid class="signInContainer box">
+    <p class="loginLabel" >Login</p>
+
+    <ion-row >
+      <ion-col>
+        
+      </ion-col>
+    </ion-row>
+
+    <ion-row >
+      <ion-col>
+        
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="margin-left-20">
+      <ion-col class="d-flex">
+        <img class="iconImg" src="../../assets/icon/usernameIcon.png" />
+        <ion-input placeholder="Enter the User Name"></ion-input>
+      </ion-col>
+    </ion-row>
+
+    <ion-row >
+      <ion-col>
+        
+      </ion-col>
+    </ion-row>
+
+    <ion-row >
+      <ion-col>
+        
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row >
+      <ion-col>
+        
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="margin-left-20">
+      <ion-col class="d-flex">
+        <img class="iconImg" src="../../assets/icon/passwordIcon.png" />
+        <ion-input type="password" [(ngModel)]="password" placeholder="Enter the Password"></ion-input>
+      </ion-col>
+    </ion-row>
+    
+    <ion-row class="round">
+      <ion-col (click)="logIn()">
+        <img class="imageCenter" src="../../assets/icon/arrow.png" />
+        <img class="center" src="../../assets/icon/round.png"/>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col>
+        <img class="fingerPrint" src="../../assets/icon/finger.png"/>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row class="ion-padding-top margin-top-85">
+      <ion-col>
+        <!-- <ion-button color="warning" expand="block">Login</ion-button> -->
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
